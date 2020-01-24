@@ -1,0 +1,44 @@
+.active {
+  background-color: black;
+  border-radius: 20px;
+}
+body {
+  background: url(../../img/boat-business-cargo-clouds-70418.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.card-body {
+  text-align: center;
+} 
+
+.card {
+  border:0px;
+  border-radius: 2rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+
+}
+.active {
+  background-color: black;
+  border-radius: 20px;
+}
+a:hover{
+  background-color: black;
+  border-radius: 20px;
+  color: white !important;
+}
+@media only screen and (max-width:767px) {
+  .card {
+    margin: 40px auto 15px;
+    width:80%;
+  }
+  .card-img-top {
+    height: 100%;
+  }
+}

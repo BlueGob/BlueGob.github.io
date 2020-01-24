@@ -6433,7 +6433,6 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
-
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -8042,7 +8041,6 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
-  height: 100vh
 }
 
 .w-auto {
@@ -10242,11 +10240,4 @@ position:absolute;
 .move{
   padding-top: 150px;
 }
-.FF{
-  background-image: url(../../img/im10.jpg);
-   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /*# sourceMappingURL=bootstrap.css.map */
