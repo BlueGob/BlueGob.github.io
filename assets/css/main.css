@@ -7,15 +7,17 @@
 }
 
 .carousel-caption{
-  bottom: 11rem;
+  bottom: 36%;
 }
 
 .carousel-caption h5{
-  font-size: 45px;
+  font-size: 72px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
-  font-family: merienda;
+  font-family: 'Arvo', serif;
+
+  
 }
 
 .carousel-caption p {
@@ -23,7 +25,7 @@
   margin: auto;
   font-size: 18px;
   line-height: 1.9;
-  font-family: poppins;
+  font-family: 'Bangers', cursive;
 }
 
 .carousel-caption a{
@@ -33,10 +35,17 @@
   display: inline-block;
   color: #fff;
   margin-top: 15px;
+  font-family: 'Bangers', cursive;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-nav a{
-  font-family: poppins;
+  font-family: 'Nunito Sans', sans-serif;
+
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -49,9 +58,17 @@
   font-weight: bold;
 }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link:hover, .active {
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+  color: #fff;
+  
+}
+
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
@@ -69,14 +86,14 @@
   
   .carousel-caption {
     width:100%;
-    bottom: 10px;
+    bottom: 20%;
     text-align: center;
     margin: 0px -54px;
     
   }
 
   .carousel-caption h5 {
-    font-size: 20px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 1;
     margin:0 auto;

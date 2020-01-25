@@ -1,60 +1,39 @@
-.navbar-nav a{
-  font-family: poppins;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 
-.navbar-light .navbar-brand{
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
-  color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-}
-
-.navbar-nav {
-  text-align: center;
-}
 h2{
-	padding: 30px;
-	font-size: 3em;
-	font-family: poppins;
-	color: #345995;
+  padding: 30px;
+  font-size: 3em;
+  font-family: poppins;
+  color: #345995;
 }
 hr{
-	border:1px solid red;
+  border:1px solid red;
 }
- .AAAA{
+.AAAA{
   background: url(../../img/pht1.jpg) no-repeat center center ;
   -webkit-background-size: cover;
-  background-position:0px -300px ;
-  height: 600px;
+  background-position:0px -400px ;
+  height: 50vh;
 }
-.active {
-  background-color: black !important;
-  border-radius: 20px;
-}
+
 .foott{
-	background-color: grey;
-	color: white;
+  background-color: grey;
+  color: white;
 }
-a:hover{
-  background-color: black;
-  border-radius: 20px;
-  color: white !important;
+p{
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: roboto;
 }
+.text li{
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: roboto;
+}
+
 @media only screen and (max-width:767px) {
  .AAAA{
   background: url(../../img/pht1.jpg) no-repeat center center scroll ;
   -webkit-background-size: cover;
- 	background-size: cover;
+  background-size: cover;
 }
 }
