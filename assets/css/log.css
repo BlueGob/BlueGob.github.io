@@ -14,6 +14,12 @@ hr{
   background-position:0px -250px ;
   height: 40vh;
 }
+.AAA{
+  background: url(../../img/imp4.jpg) no-repeat center center ;
+  -webkit-background-size: cover;
+  background-position:0px -250px ;
+  height: 40vh;
+}
 
 .foott{
 	background-color: grey;

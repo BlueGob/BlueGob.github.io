@@ -9,7 +9,7 @@ hr{
   border:1px solid red;
 }
 .AAAA{
-  background: url(../../img/pht1.jpg) no-repeat center center ;
+  background: url(../../img/port-with-cranes-2326876.jpg) no-repeat center center ;
   -webkit-background-size: cover;
   background-position:0px -400px ;
   height: 50vh;
@@ -29,10 +29,13 @@ p{
   font-size: 1.2em;
   font-family: roboto;
 }
-
+.imgg{
+  height:200px;
+  width: 300px; 
+}
 @media only screen and (max-width:767px) {
  .AAAA{
-  background: url(../../img/pht1.jpg) no-repeat center center scroll ;
+  background: url(../../img/port-with-cranes-2326876.jpg) no-repeat center center scroll ;
   -webkit-background-size: cover;
   background-size: cover;
 }
