@@ -29,11 +29,14 @@ p{
   letter-spacing: 1px;
   font-size: 1.2em;
   font-family: roboto;
+  line-height: 40px;
 }
 .text li{
   letter-spacing: 1px;
   font-size: 1.2em;
   font-family: roboto;
+  line-height: 33px;
+
 }
 
 @media only screen and (max-width:767px) {
